@@ -16,8 +16,6 @@ export default function SignIn() {
     : '';
 
   return (
-    <div className="flex min-h-screen items-center justify-center p-4">
-      <div className="w-full max-w-md">
         <Auth
           supabaseClient={supabase}
           appearance={{ theme: ThemeSupa }}
@@ -27,7 +25,5 @@ export default function SignIn() {
           showLinks={false}
           view="magic_link"
         />
-      </div>
-    </div>
   );
 }
