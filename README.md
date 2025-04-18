@@ -1,3 +1,57 @@
+        <div className="flex gap-5 items-center font-semibold justify-self-center">
+          <DropdownMenu>
+            <DropdownMenuTrigger>Influencer</DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-black/90">
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Influencer 1</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Influencer 2</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Influencer 3</Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger>Customers</DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-black/90">
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Customers 2</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Customers 1</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Customers 3</Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger>Brands</DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-black/90">
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Brands 1</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Brands 2</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={"/waitlist"}>Brands 3</Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          {/*
+  <div className="flex items-center gap-2">
+    <DeployButton />
+  </div>
+  */}
+        </div>
+
+
+
+
+
 <a href="https://demo-nextjs-with-supabase.vercel.app/">
   <img alt="Next.js and Supabase Starter Kit - the fastest way to build apps with Next.js and Supabase" src="https://demo-nextjs-with-supabase.vercel.app/opengraph-image.png">
   <h1 align="center">Next.js and Supabase Starter Kit</h1>
